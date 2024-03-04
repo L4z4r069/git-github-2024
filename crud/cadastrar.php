@@ -18,12 +18,12 @@
 
 <?php
 
-include("conecta.php")
+include("conecta.php");
 
 $id = ["id"];
 $email=["email"];
 $senha = ["senha"];
 
-$sql = "INSERT INTO usuario(id_usuario, email, senha) value ($id, $email, $senha)";
+$sql = "INSERT INTO usuario(id_usuario, email, senha) values ("$id", "$email", "$senha")";
 
 ?>
